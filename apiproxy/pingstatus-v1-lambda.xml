@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="11" name="pingstatus-v1-lambda">
+    <Basepaths>/pingstatus-aws/v1</Basepaths>
+    <Basepaths>/pingstatus-lambda/v1</Basepaths>
+    <Basepaths>/pingstatus-lambda/v1</Basepaths>
+    <Basepaths>/pingstatus-lambda/v1</Basepaths>
+    <Basepaths>/pingstatus-lambda/v1</Basepaths>
+    <Basepaths>/pingstatus-lambda/v1</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1530041590191</CreatedAt>
+    <CreatedBy>kurtkanaskie@google.com</CreatedBy>
+    <Description>Direct access to Lambda functions via AWS SDK</Description>
+    <DisplayName>pingstatus-v1-lambda</DisplayName>
+    <LastModifiedAt>1530122224549</LastModifiedAt>
+    <LastModifiedBy>kurtkanaskie@google.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:bba1285ce3675132c1e9d55e659ef561badc3f83aefd70d8eb38353e62318ae7b373e3fd2715d4570c0f17574833dfa595a84b7735fef7f5011eb31864f245c8</ManifestVersion>
+    <Policies>
+        <Policy>KV-GetAWSCredentials</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources>
+        <Resource>node://node_modules_aws-sdk.zip</Resource>
+        <Resource>node://package.json</Resource>
+        <Resource>node://server.js</Resource>
+    </Resources>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>

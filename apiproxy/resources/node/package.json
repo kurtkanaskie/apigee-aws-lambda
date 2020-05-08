@@ -1,0 +1,11 @@
+{
+  "name": "pingstatus-v1-lambda",
+  "version": "1.0.0",
+  "description": "Simple Node.js server to broker calls to AWS Lambda",
+  "main": "server.js",
+  "author": "Kurt Kanaskie",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.264.1"
+  }
+}

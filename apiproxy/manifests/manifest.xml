@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest name="manifest">
+    <Policies>
+        <VersionInfo resourceName="KV-GetAWSCredentials" version="SHA-512:51de947b1e3fc425d71869fb52592f03ce2d0fa530c81f83cf60599224066aee42339ee4835554af1ca9af92b80f3f52aaa69bffe7eacb26354bb981413e42f2"/>
+    </Policies>
+    <ProxyEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:4f75417adfa3622cebe107182c578e3f5463b82a24faa04fe1f89b3ccf575bba59687301a7d38aa434e1363761ceec14fb325a61778c9adf00aa6b1352c6617e"/>
+    </ProxyEndpoints>
+    <Resources>
+        <VersionInfo resourceName="node://node_modules_aws-sdk.zip" version="SHA-512:cbf04e00799cddbbf429c1f4e7aa39b5810bc63eec26c6798d8c654459a745f389b8e0f7886ae0b84446413a800aa2368d0539881f0e1bd5494b1dad729b1dff"/>
+        <VersionInfo resourceName="node://package.json" version="SHA-512:47fa2d2e759f84524917d638e50c7095ccbac6c544a7c980a6698e0d97275e7bae60cc9f34e0a67acf6270dd4e7f6aacc889978342ac62833dc78a140fa19cd0"/>
+        <VersionInfo resourceName="node://server.js" version="SHA-512:6ad9670e29ad15ba961e6bc57f3b34b602d75dcc88f7dbf7d7e2c8aec1c68157c10c2c646ec1c6e9dcb9e2a605f4cc453c113c0526fc73f374448aad2a985cd9"/>
+    </Resources>
+    <SharedFlows/>
+    <TargetEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:8542d7bc92b3f3ef36a1b44e1d0e5c7ace415a8bec096602d7b73f4dfa2734218afe84331540f037e228fe11a709735baa357ea63aa265fa7e25bd42b35fcee3"/>
+    </TargetEndpoints>
+</Manifest>
