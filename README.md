@@ -1,7 +1,7 @@
 # Apigee to AWS Lambda
 Simple API proxy to demonstrate access to AWS Lambda. Uses AWS SDK with Node.JS.
 
-**NOTE:** Node.JS proxies are no longer supported by Apigee.
+**NOTE:** Node.JS proxies are no longer supported by Apigee Public Cloud but can be used with Private Cloud.
 
 Last tested November 2018, use as POC.
 
